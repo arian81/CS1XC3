@@ -12,7 +12,7 @@
  * @brief Adds a student's grade to a list of grades, if the list is empty the it's initialized with calloc otherwise
  *  the array is resized with calloc to fit the new grade.(Same algorithm as the enrol_student function)
  *
- * @param student a struct that holds the information about a course
+ * @param student a struct that holds the information about a student
  * @param grade a double that holds an student's grade
  * @return nothing
  */
@@ -32,8 +32,7 @@ void add_grade(Student *student, double grade)
 /**
  * @brief finds the average of the student's grades list
  *
- * @param student a struct that holds the information about a course
- * @param grade a double that holds an student's grade
+ * @param student a struct that holds the information about a student
  * @return the average of student grades
  */
 
@@ -51,8 +50,7 @@ double average(Student *student)
 /**
  * @brief print an student's information in a user-friendly format (Name, ID, List of grades, Average)
  *
- * @param student a struct that holds the information about a course
- * @param grade a double that holds an student's grade
+ * @param student a struct that holds the information about a student
  * @return nothing
  */
 
